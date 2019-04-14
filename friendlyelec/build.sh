@@ -7,7 +7,7 @@ if [ ! -e "config_${BOARD}.seed" ];then
 fi
 
 CPU_CORES=`cat /proc/cpuinfo | grep "processor" | wc -l`
-VER=18.06.1
+VER=18.06.2
 
 cd ..
 git checkout master-v${VER}
